@@ -1,11 +1,9 @@
 A clean and minimal signup form built to demonstrate API integration, user accessibility, and simple form setup. I created this project specifically to highlight my ability to pull in external API data and apply accessible HTML form patterns, keeping the focus on some minor but significant fundamentals I have not yet added to any larger projects. The form uses the REST Countries API to dynamically populate the country dropdown, relies on semantic labels and inputs for accessibility, and is built entirely with plain HTML, CSS, and JavaScript.
 
-Get Started:
-
+Get Started: 
 You can view the live version here: (https://CpreCS.github.io/Signup-Form-API-Integration/)
 
-If you want to run it locally:
-
+If you want to run it locally: 
 Clone the repository.
 Open 'index.html' in your browser.
 
