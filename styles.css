@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 375px;
+  background-color: #F9FAFB;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: clamp(2.5rem, 15vw, 15rem);
+  margin-right: clamp(2.5rem, 15vw, 15rem);
+  padding: 1rem;
+  background: white;
+  border-radius: .6rem;
+  box-shadow: 0rem .8rem 1rem rgba(0, 0, 0, 0.17);
+}
+
+.Fullname {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.first-name{
+  margin-right: 1rem;
+}
+
+#first-name, #last-name {
+  width: 100%;
+}
+
+.Email, .Password, .DOB, .Country, .Sign-Up-btn{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+input {
+  height: 3rem;
+  border: 2px solid rgba(211, 211, 211, 0.463);
+  border-radius: .5rem;
+  padding-left: 1rem;
+}
+
+select {
+  height: 3rem;
+  border: 2px solid rgba(211, 211, 211, 0.463);
+  border-radius: .5rem;
+  padding-left: 1rem;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+button {
+  height: 3.5rem;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+  background-color: #2563EB;
+}
+
+button:hover {
+  background-color: #1a53cd;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #4f7ad8;
+}
+
+#DateOfBirth:hover {
+  cursor: text;
+}
+
+label {
+  font-size: clamp(.7rem, 3vw, 1.2rem);
+  padding-bottom: .3rem;
+}
